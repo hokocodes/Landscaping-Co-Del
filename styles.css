@@ -36,7 +36,7 @@
     }
 
 
-    button {
+    .services button {
       background-color: green;
       color: white;
       border: none;
@@ -45,7 +45,7 @@
       cursor: pointer;
     }
 
-    button:hover {
+    .services button:hover {
       background-color: limegreen;
     }
 
