@@ -1,0 +1,191 @@
+<html>
+<head>
+  <style>
+    /* CSS code for styling the website */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .navbar a:hover {
+      background-color: #555;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .hero {
+      height: 600px;
+      background-image: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFuZHNjYXBpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero h1 {
+      color: white;
+      font-size: 48px;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    .hero button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background-color: limegreen;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .service {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+
+    .service img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .service h3 {
+      margin-top: 10px;
+    }
+
+    .service p {
+      margin-top: 5px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    .footer p {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">Landscaping Co.</div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Shop</a>
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a>
+        <a href="#">Cart</a>
+        <script>
+          // JavaScript code for adding items to the cart
+          var cart = document.querySelector(".cart");
+          var items = 0;
+
+          function addToCart() {
+            items++;
+            cart.innerHTML = "Cart (" + items + ")";
+          }
+        </script>
+        
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       </div>
+     </div>
+
+     <div class="hero">
+       <div class="content">
+         <h1>Make Your Dream Garden Come True</h1>
+         <button onclick="addToCart()">Get a Free Quote</button>
+       </div>
+     </div>
+
+     <div class="services">
+       <div class="service">
+         <img src="https://images.unsplash.com/photo-1498579809087-ef1e558fd1da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZHNjYXBpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Lawn Care">
+         <h3>Lawn Care</h3>
+         <p>We offer professional lawn care services, including mowing, trimming, edging, fertilizing, and weed control.</p>
+       </div>
+       <div class="service">
+         <img src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGFuZHNjYXBpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Garden Design">
+         <h3>Garden Design</h3>
+         <p>We can help you create a beautiful and functional garden, with plants, flowers, hardscapes, water features, and lighting.</p>
+       </div>
+       <div class="service">
+         <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFuZHNjYXBpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Irrigation">
+         <h3>Irrigation</h3>
+         <p>We can install and maintain irrigation systems for your lawn and garden, to ensure optimal watering and conservation.</p>
+       </div>
+     </div>
+
+     <div class="footer">
+       <p>© 2023 Landscaping Co. All rights reserved.</p>
+     </div>
+   </div>
+ </body>
+</html>
