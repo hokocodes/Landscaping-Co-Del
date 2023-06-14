@@ -137,3 +137,8 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.contact {
+    font-size: 30px;
+    padding: 25px;
+}
